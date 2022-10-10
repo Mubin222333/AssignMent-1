@@ -45,7 +45,7 @@ function Search(){
        let jj = kk.toUpperCase();
        if(jj.indexOf(search) > -1){
         document.getElementById("opn").click();
-        Object.
+        
         document.getElementById('m1-body').innerHTML = Object.keys(a1)[i]+": "+JSON.stringify(a1[ Object.keys(a1)[i]]);
        }
        
